@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
+* {
+  margin: 0;
+}
+.nav-bar {
+  background: #6e3581;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+}
+a {
+  margin: 5%;
+  text-decoration: none;
+  color: black;
+}
