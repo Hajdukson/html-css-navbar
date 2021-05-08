@@ -1,0 +1,15 @@
+.about-compnay-container {
+  text-align: center;
+  margin: 5% 15%;
+  border: gray 3px solid;
+  border-radius: 10px;
+  padding: 5%;
+}
+h2 {
+  text-decoration: underline;
+  margin-bottom: 3%;
+}
+#info {
+  line-height: 2em;
+  text-transform: uppercase;
+}
