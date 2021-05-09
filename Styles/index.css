@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap");
-
-.main {
+body {
+  height: 100vh;
   font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  background: linear-gradient(#9198e5d8, #e664643b),
+    url("./Images/computerstation.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.main {
+  color: black;
 }
 #welcome-heading {
   text-align: center;
@@ -12,13 +22,32 @@
 .welcomer {
   width: calc(100vw - 30vw);
   text-align: justify;
-  margin-right: 0px;
 }
 .desc {
   text-align: justify;
-  border-left: 2px gray solid;
+  border-left: 5px rgba(71, 8, 68, 0.863) solid;
   margin-top: 10px;
 }
 p {
   margin: 20px;
+}
+.privacy {
+  max-width: 90%;
+  text-align: center;
+  align-items: center;
+
+  font-size: 2rem;
+  margin: 5% 0% 0% 0%;
+}
+.privacy h1 {
+  text-align: center;
+  margin: 0% 20% 0% 0%;
+}
+.privacy p {
+  text-align: center;
+  margin: 0% 20%;
+}
+.accept-privacy {
+  margin-top: 15px;
+  font-weight: 700;
 }

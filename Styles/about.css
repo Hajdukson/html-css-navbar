@@ -1,8 +1,12 @@
 .about-compnay-container {
+  background-color: #72e860;
   text-align: center;
   margin: 5% 15%;
   border: gray 3px solid;
   border-radius: 10px;
+  outline-offset: 1rem;
+  outline: gray 3px solid;
+
   padding: 5%;
 }
 h2 {
