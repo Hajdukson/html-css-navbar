@@ -10,42 +10,44 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.main {
-  color: black;
-}
+/* main div's containers and ids*/
 #welcome-heading {
   text-align: center;
 }
 #desc-heading {
   margin-left: 10px;
 }
+.main {
+  width: 100%;
+}
 .welcomer {
-  width: calc(100vw - 30vw);
+  float: left;
+  width: 69.33%;
   text-align: justify;
 }
 .desc {
+  float: left;
+  width: 30%;
   text-align: justify;
   border-left: 5px rgba(71, 8, 68, 0.863) solid;
   margin-top: 10px;
 }
+/* main div's containers and ids*/
 p {
   margin: 20px;
 }
 .privacy {
-  max-width: 90%;
+  clear: both;
+
   text-align: center;
   align-items: center;
-
   font-size: 2rem;
-  margin: 5% 0% 0% 0%;
 }
 .privacy h1 {
   text-align: center;
-  margin: 0% 20% 0% 0%;
 }
 .privacy p {
   text-align: center;
-  margin: 0% 20%;
 }
 .accept-privacy {
   margin-top: 15px;
