@@ -17,3 +17,44 @@ h2 {
   line-height: 2em;
   text-transform: uppercase;
 }
+.animation-items {
+  height: 500px;
+  width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+.animation-items::before {
+  content: "";
+  border: 5px solid gray;
+  position: absolute;
+  top: -40px;
+  left: -40px;
+  z-index: -1;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s linear;
+}
+.animation-items::after {
+  content: "";
+  background: grey;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s linear;
+}
+.animation-items:hover::after,
+.animation-items:hover::before {
+  left: 0;
+  top: 0;
+}
+.img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
