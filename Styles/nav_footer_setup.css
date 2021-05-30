@@ -5,12 +5,13 @@
 :root {
   --footerAndNavbarGradient: linear-gradient(
     90deg,
-    rgba(36, 0, 0, 1) 0%,
     rgba(44, 23, 107, 1) 0%,
     rgba(0, 255, 162, 1) 0%,
-    rgba(35, 34, 41, 1) 0%
+    rgba(35, 34, 41, 1) 0%,
+    rgba(41, 34, 41, 0.9164040616246498) 0%,
+    rgba(4, 88, 86, 1) 0%
   );
-  --footerAndNavbarColor: rgb(36, 0, 0);
+  --footerAndNavbarColor: rgb(44, 23, 107);
 }
 
 footer,
@@ -26,6 +27,7 @@ nav {
 
 a:hover {
   color: white;
+  transition: 1s;
 }
 
 nav {
@@ -35,12 +37,16 @@ nav {
   text-align: center;
   padding: 10px;
   top: 0;
-  animation: show-navbar 2s;
+  animation: show-navbar 1s;
 }
+nav a {
+  padding: 5px;
+}
+
 footer {
   bottom: 0;
   height: 150px;
-  animation: show-footer 3s;
+  animation: show-footer 1s;
 }
 
 footer h3 {
@@ -74,8 +80,11 @@ a {
   top: -10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
   footer h3 {
+    display: none;
+  }
+  footer ul {
     display: none;
   }
 }
