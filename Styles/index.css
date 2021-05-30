@@ -2,54 +2,14 @@
 body {
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  background: linear-gradient(#9198e5d8, #e664643b),
-    url("./Images/computerstation.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-/* main div's containers and ids*/
-#welcome-heading {
-  text-align: center;
-}
-#desc-heading {
-  margin-left: 10px;
-}
-.main {
-  width: 100%;
-}
-.welcomer {
-  float: left;
-  width: 69.33%;
-  text-align: justify;
-}
-.desc {
-  float: left;
-  width: 30%;
-  text-align: justify;
-  border-left: 5px rgba(71, 8, 68, 0.863) solid;
-  margin-top: 10px;
-}
-/* main div's containers and ids*/
-p {
-  margin: 20px;
-}
-.privacy {
-  clear: both;
 
-  text-align: center;
-  align-items: center;
+  /* background: linear-gradient(#9198e5d8, #e664643b),
+    url("./Images/computerstation.jpg"); */
+}
+
+.spacer {
+  height: 100px;
+}
+.content {
   font-size: 2rem;
-}
-.privacy h1 {
-  text-align: center;
-}
-.privacy p {
-  text-align: center;
-}
-.accept-privacy {
-  margin-top: 15px;
-  font-weight: 700;
 }
